@@ -21,8 +21,8 @@ jobs:
 
       - name: Build Docker image
         run: |
-          docker build -t tuo-username/hello-world:latest .
+          docker build -t eradan/hello-world:latest .
 
       - name: Push Docker image
         run: |
-          docker push tuo-username/hello-world:latest
+          docker push eradan/hello-world:latest
